@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         rootViewController = LoginViewController();	
         navtionController = UINavigationController(rootViewController: rootViewController);
         navtionController.navigationBar.isTranslucent = false;
-        window?.rootViewController = rootViewController;
-        window?.addSubview(navtionController.view);
+        window?.rootViewController = navtionController;
+        navtionController.navigationBar.barTintColor = NavBGColor;
         return true
     }
 

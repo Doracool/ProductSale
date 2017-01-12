@@ -12,15 +12,13 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = LoginBGColor;
+        self.view.backgroundColor = BGColor;
         craetTextFiled();
     }
 
     var remindUser:UIButton!;
 
     func craetTextFiled(){
-        let textFiledHeight:CGFloat = GLOBAL_HEIGHT * 0.08;
-        let width:CGFloat = GLOBAL_WIDTH * 0.5 - 50;
 
         let logoImage:UIImageView = UIImageView(image:UIImage(named: "logo-h"));
         self.view.addSubview(logoImage);
@@ -119,7 +117,9 @@ class LoginViewController: UIViewController {
         
     }
 
-    func signInClick() -> Void {
+    @objc func signInClick() -> Void {
+        let signInVC:SignInViewController = SignInViewController();
+        self.navigationController?.pushViewController(signInVC, animated: true);
 
     }
     override func didReceiveMemoryWarning() {

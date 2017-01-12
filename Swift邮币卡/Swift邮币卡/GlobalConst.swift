@@ -9,11 +9,14 @@
 import Foundation
 import UIKit
 
-let LoginBGColor = UIColor (colorLiteralRed: 69/255, green: 69/255, blue: 69/255, alpha: 1);
+let BGColor = UIColor (colorLiteralRed: 69/255, green: 69/255, blue: 69/255, alpha: 1);
 
 let TF_BGCOLOR = UIColor (colorLiteralRed: 51/255, green: 51/255, blue: 51/255, alpha: 1);
 
 let Placeholder_TextColor = UIColor (colorLiteralRed: 102/255, green: 102/255, blue: 102/255, alpha: 1);
+
+let NavBGColor = UIColor (colorLiteralRed: 38/255, green: 38/255, blue: 38/255, alpha: 1);
+
 
 let RGB127 = UIColor (colorLiteralRed: 127/255, green: 127/255, blue: 127/255, alpha: 1);
 
@@ -25,3 +28,7 @@ let GLOBAL_BLUE = UIColor (colorLiteralRed: 58/255, green: 155/255, blue: 229/25
 let GLOBAL_WIDTH = UIScreen.main.bounds.size.width;
 
 let GLOBAL_HEIGHT = UIScreen.main.bounds.size.height;
+
+let textFiledHeight:CGFloat = GLOBAL_HEIGHT * 0.08;
+
+let width:CGFloat = GLOBAL_WIDTH * 0.5 - 50;
