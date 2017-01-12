@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61645B6D1E2613470048C5BE /* UITextFiled+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61645B6C1E2613470048C5BE /* UITextFiled+Extension.swift */; };
+		61645B6F1E2614BB0048C5BE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61645B6E1E2614BB0048C5BE /* UIView+Extension.swift */; };
+		617658521E260AB70030AC0F /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658301E260AB70030AC0F /* Constraint.swift */; };
+		617658531E260AB70030AC0F /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658311E260AB70030AC0F /* ConstraintAttributes.swift */; };
+		617658541E260AB70030AC0F /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658321E260AB70030AC0F /* ConstraintConfig.swift */; };
+		617658551E260AB70030AC0F /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658331E260AB70030AC0F /* ConstraintConstantTarget.swift */; };
+		617658561E260AB70030AC0F /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658341E260AB70030AC0F /* ConstraintDescription.swift */; };
+		617658571E260AB70030AC0F /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658351E260AB70030AC0F /* ConstraintDSL.swift */; };
+		617658581E260AB70030AC0F /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658361E260AB70030AC0F /* ConstraintInsets.swift */; };
+		617658591E260AB70030AC0F /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658371E260AB70030AC0F /* ConstraintInsetTarget.swift */; };
+		6176585A1E260AB70030AC0F /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658381E260AB70030AC0F /* ConstraintItem.swift */; };
+		6176585B1E260AB70030AC0F /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658391E260AB70030AC0F /* ConstraintLayoutGuide+Extensions.swift */; };
+		6176585C1E260AB70030AC0F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176583A1E260AB70030AC0F /* ConstraintLayoutGuide.swift */; };
+		6176585D1E260AB70030AC0F /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176583B1E260AB70030AC0F /* ConstraintLayoutGuideDSL.swift */; };
+		6176585E1E260AB70030AC0F /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176583C1E260AB70030AC0F /* ConstraintLayoutSupport.swift */; };
+		6176585F1E260AB70030AC0F /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176583D1E260AB70030AC0F /* ConstraintLayoutSupportDSL.swift */; };
+		617658601E260AB70030AC0F /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176583E1E260AB70030AC0F /* ConstraintMaker.swift */; };
+		617658611E260AB70030AC0F /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176583F1E260AB70030AC0F /* ConstraintMakerEditable.swift */; };
+		617658621E260AB70030AC0F /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658401E260AB70030AC0F /* ConstraintMakerExtendable.swift */; };
+		617658631E260AB70030AC0F /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658411E260AB70030AC0F /* ConstraintMakerFinalizable.swift */; };
+		617658641E260AB70030AC0F /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658421E260AB70030AC0F /* ConstraintMakerPriortizable.swift */; };
+		617658651E260AB70030AC0F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658431E260AB70030AC0F /* ConstraintMakerRelatable.swift */; };
+		617658661E260AB70030AC0F /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658441E260AB70030AC0F /* ConstraintMultiplierTarget.swift */; };
+		617658671E260AB70030AC0F /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658451E260AB70030AC0F /* ConstraintOffsetTarget.swift */; };
+		617658681E260AB70030AC0F /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658461E260AB70030AC0F /* ConstraintPriorityTarget.swift */; };
+		617658691E260AB70030AC0F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658471E260AB70030AC0F /* ConstraintRelatableTarget.swift */; };
+		6176586A1E260AB70030AC0F /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658481E260AB70030AC0F /* ConstraintRelation.swift */; };
+		6176586B1E260AB70030AC0F /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658491E260AB70030AC0F /* ConstraintView+Extensions.swift */; };
+		6176586C1E260AB70030AC0F /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176584A1E260AB70030AC0F /* ConstraintView.swift */; };
+		6176586D1E260AB70030AC0F /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176584B1E260AB70030AC0F /* ConstraintViewDSL.swift */; };
+		6176586E1E260AB70030AC0F /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176584C1E260AB70030AC0F /* Debugging.swift */; };
+		6176586F1E260AB70030AC0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6176584D1E260AB70030AC0F /* Info.plist */; };
+		617658701E260AB70030AC0F /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176584E1E260AB70030AC0F /* LayoutConstraint.swift */; };
+		617658711E260AB70030AC0F /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176584F1E260AB70030AC0F /* LayoutConstraintItem.swift */; };
+		617658721E260AB70030AC0F /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658511E260AB70030AC0F /* UILayoutSupport+Extensions.swift */; };
+		6193419F1E24BDD000BFA7B4 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193419E1E24BDD000BFA7B4 /* GlobalConst.swift */; };
+		61CAEED71E2392D8001A3605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEED61E2392D8001A3605 /* AppDelegate.swift */; };
+		61CAEED91E2392D8001A3605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEED81E2392D8001A3605 /* ViewController.swift */; };
+		61CAEEDC1E2392D8001A3605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CAEEDA1E2392D8001A3605 /* Main.storyboard */; };
+		61CAEEDE1E2392D8001A3605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CAEEDD1E2392D8001A3605 /* Assets.xcassets */; };
+		61CAEEE11E2392D8001A3605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CAEEDF1E2392D8001A3605 /* LaunchScreen.storyboard */; };
+		61CAEEEC1E2392D9001A3605 /* Swift___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEEEB1E2392D9001A3605 /* Swift___Tests.swift */; };
+		61CAEEF71E2392D9001A3605 /* Swift___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEEF61E2392D9001A3605 /* Swift___UITests.swift */; };
+		61CAEF051E239349001A3605 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEF041E239349001A3605 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61CAEEE81E2392D9001A3605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61CAEECB1E2392D8001A3605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61CAEED21E2392D8001A3605;
+			remoteInfo = "Swift邮币卡";
+		};
+		61CAEEF31E2392D9001A3605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61CAEECB1E2392D8001A3605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61CAEED21E2392D8001A3605;
+			remoteInfo = "Swift邮币卡";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61645B6C1E2613470048C5BE /* UITextFiled+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextFiled+Extension.swift"; sourceTree = "<group>"; };
+		61645B6E1E2614BB0048C5BE /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		617658301E260AB70030AC0F /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		617658311E260AB70030AC0F /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		617658321E260AB70030AC0F /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		617658331E260AB70030AC0F /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		617658341E260AB70030AC0F /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		617658351E260AB70030AC0F /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		617658361E260AB70030AC0F /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		617658371E260AB70030AC0F /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		617658381E260AB70030AC0F /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		617658391E260AB70030AC0F /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		6176583A1E260AB70030AC0F /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		6176583B1E260AB70030AC0F /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		6176583C1E260AB70030AC0F /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		6176583D1E260AB70030AC0F /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		6176583E1E260AB70030AC0F /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		6176583F1E260AB70030AC0F /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		617658401E260AB70030AC0F /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		617658411E260AB70030AC0F /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		617658421E260AB70030AC0F /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		617658431E260AB70030AC0F /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		617658441E260AB70030AC0F /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		617658451E260AB70030AC0F /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		617658461E260AB70030AC0F /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		617658471E260AB70030AC0F /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		617658481E260AB70030AC0F /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		617658491E260AB70030AC0F /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		6176584A1E260AB70030AC0F /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		6176584B1E260AB70030AC0F /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		6176584C1E260AB70030AC0F /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		6176584D1E260AB70030AC0F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6176584E1E260AB70030AC0F /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		6176584F1E260AB70030AC0F /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		617658501E260AB70030AC0F /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		617658511E260AB70030AC0F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		6193419E1E24BDD000BFA7B4 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		61CAEED31E2392D8001A3605 /* Swift邮币卡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift邮币卡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CAEED61E2392D8001A3605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61CAEED81E2392D8001A3605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61CAEEDB1E2392D8001A3605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61CAEEDD1E2392D8001A3605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61CAEEE01E2392D8001A3605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61CAEEE21E2392D8001A3605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CAEEE71E2392D9001A3605 /* Swift邮币卡Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift邮币卡Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CAEEEB1E2392D9001A3605 /* Swift___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___Tests.swift"; sourceTree = "<group>"; };
+		61CAEEED1E2392D9001A3605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CAEEF21E2392D9001A3605 /* Swift邮币卡UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift邮币卡UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CAEEF61E2392D9001A3605 /* Swift___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___UITests.swift"; sourceTree = "<group>"; };
+		61CAEEF81E2392D9001A3605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CAEF041E239349001A3605 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61CAEED01E2392D8001A3605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CAEEE41E2392D9001A3605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CAEEEF1E2392D9001A3605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6176582E1E260AA20030AC0F /* SwiftLib */ = {
+			isa = PBXGroup;
+			children = (
+				6176582F1E260AB70030AC0F /* Source */,
+			);
+			name = SwiftLib;
+			sourceTree = "<group>";
+		};
+		6176582F1E260AB70030AC0F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				617658301E260AB70030AC0F /* Constraint.swift */,
+				617658311E260AB70030AC0F /* ConstraintAttributes.swift */,
+				617658321E260AB70030AC0F /* ConstraintConfig.swift */,
+				617658331E260AB70030AC0F /* ConstraintConstantTarget.swift */,
+				617658341E260AB70030AC0F /* ConstraintDescription.swift */,
+				617658351E260AB70030AC0F /* ConstraintDSL.swift */,
+				617658361E260AB70030AC0F /* ConstraintInsets.swift */,
+				617658371E260AB70030AC0F /* ConstraintInsetTarget.swift */,
+				617658381E260AB70030AC0F /* ConstraintItem.swift */,
+				617658391E260AB70030AC0F /* ConstraintLayoutGuide+Extensions.swift */,
+				6176583A1E260AB70030AC0F /* ConstraintLayoutGuide.swift */,
+				6176583B1E260AB70030AC0F /* ConstraintLayoutGuideDSL.swift */,
+				6176583C1E260AB70030AC0F /* ConstraintLayoutSupport.swift */,
+				6176583D1E260AB70030AC0F /* ConstraintLayoutSupportDSL.swift */,
+				6176583E1E260AB70030AC0F /* ConstraintMaker.swift */,
+				6176583F1E260AB70030AC0F /* ConstraintMakerEditable.swift */,
+				617658401E260AB70030AC0F /* ConstraintMakerExtendable.swift */,
+				617658411E260AB70030AC0F /* ConstraintMakerFinalizable.swift */,
+				617658421E260AB70030AC0F /* ConstraintMakerPriortizable.swift */,
+				617658431E260AB70030AC0F /* ConstraintMakerRelatable.swift */,
+				617658441E260AB70030AC0F /* ConstraintMultiplierTarget.swift */,
+				617658451E260AB70030AC0F /* ConstraintOffsetTarget.swift */,
+				617658461E260AB70030AC0F /* ConstraintPriorityTarget.swift */,
+				617658471E260AB70030AC0F /* ConstraintRelatableTarget.swift */,
+				617658481E260AB70030AC0F /* ConstraintRelation.swift */,
+				617658491E260AB70030AC0F /* ConstraintView+Extensions.swift */,
+				6176584A1E260AB70030AC0F /* ConstraintView.swift */,
+				6176584B1E260AB70030AC0F /* ConstraintViewDSL.swift */,
+				6176584C1E260AB70030AC0F /* Debugging.swift */,
+				6176584D1E260AB70030AC0F /* Info.plist */,
+				6176584E1E260AB70030AC0F /* LayoutConstraint.swift */,
+				6176584F1E260AB70030AC0F /* LayoutConstraintItem.swift */,
+				617658501E260AB70030AC0F /* SnapKit.h */,
+				617658511E260AB70030AC0F /* UILayoutSupport+Extensions.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		61CAEECA1E2392D8001A3605 = {
+			isa = PBXGroup;
+			children = (
+				61CAEED51E2392D8001A3605 /* Swift邮币卡 */,
+				61CAEEEA1E2392D9001A3605 /* Swift邮币卡Tests */,
+				61CAEEF51E2392D9001A3605 /* Swift邮币卡UITests */,
+				61CAEED41E2392D8001A3605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61CAEED41E2392D8001A3605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61CAEED31E2392D8001A3605 /* Swift邮币卡.app */,
+				61CAEEE71E2392D9001A3605 /* Swift邮币卡Tests.xctest */,
+				61CAEEF21E2392D9001A3605 /* Swift邮币卡UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61CAEED51E2392D8001A3605 /* Swift邮币卡 */ = {
+			isa = PBXGroup;
+			children = (
+				6176582E1E260AA20030AC0F /* SwiftLib */,
+				61CAEED61E2392D8001A3605 /* AppDelegate.swift */,
+				61CAEED81E2392D8001A3605 /* ViewController.swift */,
+				61CAEF041E239349001A3605 /* LoginViewController.swift */,
+				61CAEEDA1E2392D8001A3605 /* Main.storyboard */,
+				61CAEEDD1E2392D8001A3605 /* Assets.xcassets */,
+				61CAEEDF1E2392D8001A3605 /* LaunchScreen.storyboard */,
+				61CAEEE21E2392D8001A3605 /* Info.plist */,
+				6193419E1E24BDD000BFA7B4 /* GlobalConst.swift */,
+				61645B6C1E2613470048C5BE /* UITextFiled+Extension.swift */,
+				61645B6E1E2614BB0048C5BE /* UIView+Extension.swift */,
+			);
+			path = "Swift邮币卡";
+			sourceTree = "<group>";
+		};
+		61CAEEEA1E2392D9001A3605 /* Swift邮币卡Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61CAEEEB1E2392D9001A3605 /* Swift___Tests.swift */,
+				61CAEEED1E2392D9001A3605 /* Info.plist */,
+			);
+			path = "Swift邮币卡Tests";
+			sourceTree = "<group>";
+		};
+		61CAEEF51E2392D9001A3605 /* Swift邮币卡UITests */ = {
+			isa = PBXGroup;
+			children = (
+				61CAEEF61E2392D9001A3605 /* Swift___UITests.swift */,
+				61CAEEF81E2392D9001A3605 /* Info.plist */,
+			);
+			path = "Swift邮币卡UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61CAEED21E2392D8001A3605 /* Swift邮币卡 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CAEEFB1E2392D9001A3605 /* Build configuration list for PBXNativeTarget "Swift邮币卡" */;
+			buildPhases = (
+				61CAEECF1E2392D8001A3605 /* Sources */,
+				61CAEED01E2392D8001A3605 /* Frameworks */,
+				61CAEED11E2392D8001A3605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift邮币卡";
+			productName = "Swift邮币卡";
+			productReference = 61CAEED31E2392D8001A3605 /* Swift邮币卡.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61CAEEE61E2392D9001A3605 /* Swift邮币卡Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CAEEFE1E2392D9001A3605 /* Build configuration list for PBXNativeTarget "Swift邮币卡Tests" */;
+			buildPhases = (
+				61CAEEE31E2392D9001A3605 /* Sources */,
+				61CAEEE41E2392D9001A3605 /* Frameworks */,
+				61CAEEE51E2392D9001A3605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61CAEEE91E2392D9001A3605 /* PBXTargetDependency */,
+			);
+			name = "Swift邮币卡Tests";
+			productName = "Swift邮币卡Tests";
+			productReference = 61CAEEE71E2392D9001A3605 /* Swift邮币卡Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61CAEEF11E2392D9001A3605 /* Swift邮币卡UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CAEF011E2392D9001A3605 /* Build configuration list for PBXNativeTarget "Swift邮币卡UITests" */;
+			buildPhases = (
+				61CAEEEE1E2392D9001A3605 /* Sources */,
+				61CAEEEF1E2392D9001A3605 /* Frameworks */,
+				61CAEEF01E2392D9001A3605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61CAEEF41E2392D9001A3605 /* PBXTargetDependency */,
+			);
+			name = "Swift邮币卡UITests";
+			productName = "Swift邮币卡UITests";
+			productReference = 61CAEEF21E2392D9001A3605 /* Swift邮币卡UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61CAEECB1E2392D8001A3605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "点石科技";
+				TargetAttributes = {
+					61CAEED21E2392D8001A3605 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BST53DH2L6;
+						ProvisioningStyle = Automatic;
+					};
+					61CAEEE61E2392D9001A3605 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BST53DH2L6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61CAEED21E2392D8001A3605;
+					};
+					61CAEEF11E2392D9001A3605 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BST53DH2L6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61CAEED21E2392D8001A3605;
+					};
+				};
+			};
+			buildConfigurationList = 61CAEECE1E2392D8001A3605 /* Build configuration list for PBXProject "Swift邮币卡" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61CAEECA1E2392D8001A3605;
+			productRefGroup = 61CAEED41E2392D8001A3605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61CAEED21E2392D8001A3605 /* Swift邮币卡 */,
+				61CAEEE61E2392D9001A3605 /* Swift邮币卡Tests */,
+				61CAEEF11E2392D9001A3605 /* Swift邮币卡UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61CAEED11E2392D8001A3605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6176586F1E260AB70030AC0F /* Info.plist in Resources */,
+				61CAEEE11E2392D8001A3605 /* LaunchScreen.storyboard in Resources */,
+				61CAEEDE1E2392D8001A3605 /* Assets.xcassets in Resources */,
+				61CAEEDC1E2392D8001A3605 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CAEEE51E2392D9001A3605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CAEEF01E2392D9001A3605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61CAEECF1E2392D8001A3605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6176586A1E260AB70030AC0F /* ConstraintRelation.swift in Sources */,
+				6193419F1E24BDD000BFA7B4 /* GlobalConst.swift in Sources */,
+				617658711E260AB70030AC0F /* LayoutConstraintItem.swift in Sources */,
+				617658591E260AB70030AC0F /* ConstraintInsetTarget.swift in Sources */,
+				617658651E260AB70030AC0F /* ConstraintMakerRelatable.swift in Sources */,
+				6176586E1E260AB70030AC0F /* Debugging.swift in Sources */,
+				6176585A1E260AB70030AC0F /* ConstraintItem.swift in Sources */,
+				6176586B1E260AB70030AC0F /* ConstraintView+Extensions.swift in Sources */,
+				617658671E260AB70030AC0F /* ConstraintOffsetTarget.swift in Sources */,
+				61CAEF051E239349001A3605 /* LoginViewController.swift in Sources */,
+				61645B6D1E2613470048C5BE /* UITextFiled+Extension.swift in Sources */,
+				617658631E260AB70030AC0F /* ConstraintMakerFinalizable.swift in Sources */,
+				61645B6F1E2614BB0048C5BE /* UIView+Extension.swift in Sources */,
+				617658681E260AB70030AC0F /* ConstraintPriorityTarget.swift in Sources */,
+				61CAEED91E2392D8001A3605 /* ViewController.swift in Sources */,
+				6176585E1E260AB70030AC0F /* ConstraintLayoutSupport.swift in Sources */,
+				617658691E260AB70030AC0F /* ConstraintRelatableTarget.swift in Sources */,
+				617658701E260AB70030AC0F /* LayoutConstraint.swift in Sources */,
+				617658601E260AB70030AC0F /* ConstraintMaker.swift in Sources */,
+				617658531E260AB70030AC0F /* ConstraintAttributes.swift in Sources */,
+				617658721E260AB70030AC0F /* UILayoutSupport+Extensions.swift in Sources */,
+				617658571E260AB70030AC0F /* ConstraintDSL.swift in Sources */,
+				6176585F1E260AB70030AC0F /* ConstraintLayoutSupportDSL.swift in Sources */,
+				617658581E260AB70030AC0F /* ConstraintInsets.swift in Sources */,
+				617658641E260AB70030AC0F /* ConstraintMakerPriortizable.swift in Sources */,
+				617658611E260AB70030AC0F /* ConstraintMakerEditable.swift in Sources */,
+				617658541E260AB70030AC0F /* ConstraintConfig.swift in Sources */,
+				6176586D1E260AB70030AC0F /* ConstraintViewDSL.swift in Sources */,
+				6176585C1E260AB70030AC0F /* ConstraintLayoutGuide.swift in Sources */,
+				617658521E260AB70030AC0F /* Constraint.swift in Sources */,
+				61CAEED71E2392D8001A3605 /* AppDelegate.swift in Sources */,
+				6176585B1E260AB70030AC0F /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				6176586C1E260AB70030AC0F /* ConstraintView.swift in Sources */,
+				617658621E260AB70030AC0F /* ConstraintMakerExtendable.swift in Sources */,
+				6176585D1E260AB70030AC0F /* ConstraintLayoutGuideDSL.swift in Sources */,
+				617658551E260AB70030AC0F /* ConstraintConstantTarget.swift in Sources */,
+				617658561E260AB70030AC0F /* ConstraintDescription.swift in Sources */,
+				617658661E260AB70030AC0F /* ConstraintMultiplierTarget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CAEEE31E2392D9001A3605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CAEEEC1E2392D9001A3605 /* Swift___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CAEEEE1E2392D9001A3605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CAEEF71E2392D9001A3605 /* Swift___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61CAEEE91E2392D9001A3605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61CAEED21E2392D8001A3605 /* Swift邮币卡 */;
+			targetProxy = 61CAEEE81E2392D9001A3605 /* PBXContainerItemProxy */;
+		};
+		61CAEEF41E2392D9001A3605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61CAEED21E2392D8001A3605 /* Swift邮币卡 */;
+			targetProxy = 61CAEEF31E2392D9001A3605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61CAEEDA1E2392D8001A3605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CAEEDB1E2392D8001A3605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61CAEEDF1E2392D8001A3605 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CAEEE01E2392D8001A3605 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61CAEEF91E2392D9001A3605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61CAEEFA1E2392D9001A3605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61CAEEFC1E2392D9001A3605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BST53DH2L6;
+				INFOPLIST_FILE = "Swift邮币卡/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshi.Swift---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		61CAEEFD1E2392D9001A3605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BST53DH2L6;
+				INFOPLIST_FILE = "Swift邮币卡/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshi.Swift---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		61CAEEFF1E2392D9001A3605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BST53DH2L6;
+				INFOPLIST_FILE = "Swift邮币卡Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshi.Swift---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift邮币卡.app/Swift邮币卡";
+			};
+			name = Debug;
+		};
+		61CAEF001E2392D9001A3605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BST53DH2L6;
+				INFOPLIST_FILE = "Swift邮币卡Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshi.Swift---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift邮币卡.app/Swift邮币卡";
+			};
+			name = Release;
+		};
+		61CAEF021E2392D9001A3605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BST53DH2L6;
+				INFOPLIST_FILE = "Swift邮币卡UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshi.Swift---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift邮币卡";
+			};
+			name = Debug;
+		};
+		61CAEF031E2392D9001A3605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BST53DH2L6;
+				INFOPLIST_FILE = "Swift邮币卡UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshi.Swift---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift邮币卡";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61CAEECE1E2392D8001A3605 /* Build configuration list for PBXProject "Swift邮币卡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CAEEF91E2392D9001A3605 /* Debug */,
+				61CAEEFA1E2392D9001A3605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CAEEFB1E2392D9001A3605 /* Build configuration list for PBXNativeTarget "Swift邮币卡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CAEEFC1E2392D9001A3605 /* Debug */,
+				61CAEEFD1E2392D9001A3605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CAEEFE1E2392D9001A3605 /* Build configuration list for PBXNativeTarget "Swift邮币卡Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CAEEFF1E2392D9001A3605 /* Debug */,
+				61CAEF001E2392D9001A3605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CAEF011E2392D9001A3605 /* Build configuration list for PBXNativeTarget "Swift邮币卡UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CAEF021E2392D9001A3605 /* Debug */,
+				61CAEF031E2392D9001A3605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61CAEECB1E2392D8001A3605 /* Project object */;
+}

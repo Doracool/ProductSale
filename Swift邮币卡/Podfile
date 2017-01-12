@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Swift邮币卡' do
+    pod 'SnapKit', '~> 3.1.2'
+end
+
+target 'Swift邮币卡Tests' do
+
+end
+
+target 'Swift邮币卡UITests' do
+
+end
+
