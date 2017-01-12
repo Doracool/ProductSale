@@ -14,6 +14,8 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = BGColor;
+        self.title = "注册";
+        creatSignInView();
     }
 
 
