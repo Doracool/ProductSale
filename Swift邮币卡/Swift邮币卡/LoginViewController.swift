@@ -89,12 +89,38 @@ class LoginViewController: UIViewController {
         remindName.setTitleColor(RGB127, for: UIControlState.normal);
 
         let loginBtn:UIButton = UIButton().crateButtonWithAction(self, #selector(loginClick), "注册登录", 19, GLOBAL_RED);
+        self.view.addSubview(loginBtn);
+        loginBtn.snp.makeConstraints { (make) in
+            make.top.equalTo(password.snp.bottom).offset(45);
+            make.leading.equalTo(password.snp.leading);
+            make.trailing.equalTo(password.snp.trailing);
+            make.height.equalTo(textFiledHeight);
+        }
+
+        let signInBtn:UIButton = UIButton().crateButtonWithAction(self, #selector(signInClick), "注册账号", 19, GLOBAL_BLUE);
+        self.view.addSubview(signInBtn);
+        signInBtn.snp.makeConstraints { (make) in
+            make.top.equalTo(loginBtn.snp.bottom).offset(10);
+            make.leading.equalTo(loginBtn.snp.leading);
+            make.trailing.equalTo(loginBtn.snp.trailing);
+            make.height.equalTo(textFiledHeight);
+        }
+
 
     }
 
 
     @objc func remindUserClick(){
         remindUser.isSelected = !remindUser.isSelected;
+    }
+
+
+    @objc func loginClick() -> Void {
+        
+    }
+
+    func signInClick() -> Void {
+
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
