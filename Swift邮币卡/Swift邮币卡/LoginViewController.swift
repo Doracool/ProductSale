@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
         craetTextFiled();
     }
 
+    var logoImage:UIImageView!;
     var remindUser:UIButton!;
     var tradeCode:UITextField!;
     var userName:UITextField!;
@@ -25,7 +26,7 @@ class LoginViewController: UIViewController {
 
     func craetTextFiled(){
 
-        let logoImage:UIImageView = UIImageView(image:UIImage(named: "logo-h"));
+        logoImage = UIImageView(image:UIImage(named: "logo-h"));
         self.view.addSubview(logoImage);
         logoImage.snp.makeConstraints { (make) in
             make.top.equalTo(self.view.snp.top).offset(20);
@@ -121,8 +122,24 @@ class LoginViewController: UIViewController {
     @objc func loginClick() -> Void {
         Alamofire.request(TradeUrl.appending(tradeCode.text!)).validate(contentType: ["applacation/json"]).responseString { (response) in
             if let tradeInfo = JSONDeserializer<TradeModel>.deserializeFrom(json: response.result.value){
-                
+                let tradeModel:TradeModel = tradeInfo;
+                TradeModel.shareInstance.Ip = tradeModel.Ip;
+                TradeModel.shareInstance.Port = tradeModel.Port;
+                TradeModel.shareInstance.CommunicationUrl = tradeModel.CommunicationUrl;
+                TradeModel.shareInstance.CompanyName = tradeModel.CompanyName;
+                TradeModel.shareInstance.ConsultationUrl = tradeModel.ConsultationUrl;
+                TradeModel.shareInstance.CreateAccountUrl = tradeModel.CreateAccountUrl;
+                TradeModel.shareInstance.CusServTel = tradeModel.CusServTel;
+                TradeModel.shareInstance.IsShow = tradeModel.IsShow;
+                TradeModel.shareInstance.LogoImg = tradeModel.LogoImg;
+                TradeModel.shareInstance.MoneyInUrl = tradeModel.MoneyInUrl;
+                TradeModel.shareInstance.MoneyOutUrl = tradeModel.MoneyOutUrl;
+                TradeModel.shareInstance.SiteUrl = tradeModel.SiteUrl;
+                TradeModel.shareInstance.StudyUrl = tradeModel.StudyUrl;
+                TradeModel.shareInstance.TradeCenterName = tradeModel.TradeCenterName;
+                TradeModel.shareInstance.Version = tradeModel.Version;
             }
+            
         }
     }
 

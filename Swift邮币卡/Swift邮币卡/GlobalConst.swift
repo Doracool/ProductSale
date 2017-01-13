@@ -37,3 +37,5 @@ let width:CGFloat = GLOBAL_WIDTH * 0.5 - 50;
 
 let TradeUrl:NSString = "http://code.lymidas.com/TradeCenter/Get?TradeCenterAccount=";
 
+let LogoUrl:NSString = "http://code.lymidas.com//Content/upload/";
+

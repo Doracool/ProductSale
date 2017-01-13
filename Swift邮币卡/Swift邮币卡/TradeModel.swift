@@ -73,7 +73,13 @@ class TradeModel: HandyJSON {
     var TradeCenterName:NSString = "";
     /**
      *  版本号
-     */    var Version:NSString = "";
+     */
+    var Version:NSString = "";
 
-    required init() {}
+    static let shareInstance = TradeModel();
+
+    required init() {
+    };
 }
+
+
