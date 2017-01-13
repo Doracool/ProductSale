@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import HandyJSON
 
 class LoginViewController: UIViewController {
 
@@ -117,7 +119,11 @@ class LoginViewController: UIViewController {
 
 
     @objc func loginClick() -> Void {
-        print(tradeCode.text! + userName.text! + password.text!);
+        Alamofire.request(TradeUrl.appending(tradeCode.text!)).validate(contentType: ["applacation/json"]).responseString { (response) in
+            if let tradeInfo = JSONDeserializer<TradeModel>.deserializeFrom(json: response.result.value){
+                
+            }
+        }
     }
 
     @objc func signInClick() -> Void {

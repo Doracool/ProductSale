@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import HandyJSON
 
 class SignInViewController: UIViewController {
 
@@ -57,8 +58,12 @@ class SignInViewController: UIViewController {
 
 
     @objc func signInClick() -> Void {
-        Alamofire.request(TradeUrl.appending(tradeCode.text!)).responseJSON { (response) in
-            print(response.result.value!);
+        Alamofire.request(TradeUrl.appending(tradeCode.text!)).validate(contentType: ["application/json"]).responseString { (response) in
+
+            if let tradeInfo = JSONDeserializer<TradeModel>.deserializeFrom(json: response.result.value){
+                let tradeModel:TradeModel = tradeInfo;
+                print(tradeModel.Ip);
+            }
         }
 
     }

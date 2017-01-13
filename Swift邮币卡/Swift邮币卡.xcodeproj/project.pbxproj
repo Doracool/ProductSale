@@ -44,8 +44,8 @@
 		617658711E260AB70030AC0F /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176584F1E260AB70030AC0F /* LayoutConstraintItem.swift */; };
 		617658721E260AB70030AC0F /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658511E260AB70030AC0F /* UILayoutSupport+Extensions.swift */; };
 		6193419F1E24BDD000BFA7B4 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193419E1E24BDD000BFA7B4 /* GlobalConst.swift */; };
+		61A73B231E28661A004FEB0B /* TradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A73B221E28661A004FEB0B /* TradeModel.swift */; };
 		61C07C2E1E276BC4004CAEFA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C07C211E276B8E004CAEFA /* Alamofire.framework */; };
-		61C07C301E277B24004CAEFA /* TradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C07C2F1E277B24004CAEFA /* TradeModel.swift */; };
 		61C07C4C1E278810004CAEFA /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C07C3D1E278804004CAEFA /* HandyJSON.framework */; };
 		61CAEED71E2392D8001A3605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEED61E2392D8001A3605 /* AppDelegate.swift */; };
 		61CAEED91E2392D8001A3605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEED81E2392D8001A3605 /* ViewController.swift */; };
@@ -218,8 +218,8 @@
 		617658501E260AB70030AC0F /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
 		617658511E260AB70030AC0F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		6193419E1E24BDD000BFA7B4 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		61A73B221E28661A004FEB0B /* TradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeModel.swift; sourceTree = "<group>"; };
 		61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		61C07C2F1E277B24004CAEFA /* TradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeModel.swift; sourceTree = "<group>"; };
 		61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HandyJSON.xcodeproj; path = ../HandyJSON/HandyJSON.xcodeproj; sourceTree = "<group>"; };
 		61CAEED31E2392D8001A3605 /* Swift邮币卡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift邮币卡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CAEED61E2392D8001A3605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -379,7 +379,7 @@
 				61645B6C1E2613470048C5BE /* UITextFiled+Extension.swift */,
 				61645B6E1E2614BB0048C5BE /* UIView+Extension.swift */,
 				6120D0B21E273725007A5427 /* SignInViewController.swift */,
-				61C07C2F1E277B24004CAEFA /* TradeModel.swift */,
+				61A73B221E28661A004FEB0B /* TradeModel.swift */,
 			);
 			path = "Swift邮币卡";
 			sourceTree = "<group>";
@@ -678,7 +678,7 @@
 				617658691E260AB70030AC0F /* ConstraintRelatableTarget.swift in Sources */,
 				617658701E260AB70030AC0F /* LayoutConstraint.swift in Sources */,
 				617658601E260AB70030AC0F /* ConstraintMaker.swift in Sources */,
-				61C07C301E277B24004CAEFA /* TradeModel.swift in Sources */,
+				61A73B231E28661A004FEB0B /* TradeModel.swift in Sources */,
 				617658531E260AB70030AC0F /* ConstraintAttributes.swift in Sources */,
 				617658721E260AB70030AC0F /* UILayoutSupport+Extensions.swift in Sources */,
 				617658571E260AB70030AC0F /* ConstraintDSL.swift in Sources */,

@@ -2,13 +2,15 @@
 //  TradeModel.swift
 //  Swift邮币卡
 //
-//  Created by 李涛涛 on 2017/1/12.
+//  Created by 李涛涛 on 2017/1/13.
 //  Copyright © 2017年 点石科技. All rights reserved.
 //
 
 import UIKit
+import HandyJSON
 
-class TradeModel: NSObject {
+class TradeModel: HandyJSON {
+
     /**
      *  轮播图
      */
@@ -72,4 +74,6 @@ class TradeModel: NSObject {
     /**
      *  版本号
      */    var Version:NSString = "";
+
+    required init() {}
 }
