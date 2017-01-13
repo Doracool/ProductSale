@@ -30,7 +30,7 @@ extension UITextField{
             make.width.equalTo(1);
         }
 
-        let textFiled:UITextField = UITextField();
+        let textFiled:UITextField = UITextField.init();
         textFiled.placeholder = placeholder as String;
         textFiled.backgroundColor = TF_BGCOLOR;
         textFiled.setValue(Placeholder_TextColor, forKeyPath: "_placeholderLabel.textColor");

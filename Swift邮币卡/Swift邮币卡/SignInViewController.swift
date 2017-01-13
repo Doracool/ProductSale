@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class SignInViewController: UIViewController {
 
@@ -18,25 +19,27 @@ class SignInViewController: UIViewController {
         creatSignInView();
     }
 
+    var tradeCode:UITextField!;
 
-    func creatSignInView() -> Void {
+
+    func creatSignInView(){
         let logoImage:UIImageView = UIImageView(image:UIImage(named: "logo-h"));
         self.view.addSubview(logoImage);
         logoImage.snp.makeConstraints { (make) in
-            make.top.equalTo(50);
-            make.leading.equalTo(width);
-            make.width.equalTo(100);
+            make.top.equalTo(self.view.snp.top).offset(20);
             make.height.equalTo(100);
+            make.width.equalTo(100);
+            make.leading.equalTo(self.view.snp.leading).offset(width);
         }
         logoImage.layer.cornerRadius = 50;
         logoImage.layer.masksToBounds = true;
 
-        let tradeCode:UITextField = UITextField.textFieldLeftViewImageAndPlaceholder("Trade", "交易所代码");
+        tradeCode = UITextField.textFieldLeftViewImageAndPlaceholder("Trade", "交易所代码");
         self.view.addSubview(tradeCode);
         tradeCode.snp.makeConstraints { (make) in
-            make.top.equalTo(logoImage.snp.bottom).offset(20);
+            make.top.equalTo(logoImage.snp.bottom).offset(10);
             make.leading.equalTo(20);
-            make.trailing.equalTo(-20);
+            make.trailing.equalTo(self.view.snp.trailing).offset(-20);
             make.height.equalTo(textFiledHeight);
         }
 
@@ -53,9 +56,13 @@ class SignInViewController: UIViewController {
 
 
 
-    func signInClick() -> Void {
-        
+    @objc func signInClick() -> Void {
+        Alamofire.request(TradeUrl.appending(tradeCode.text!)).responseJSON { (response) in
+            print(response.result.value!);
+        }
+
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

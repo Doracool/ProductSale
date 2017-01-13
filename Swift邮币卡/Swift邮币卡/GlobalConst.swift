@@ -32,3 +32,8 @@ let GLOBAL_HEIGHT = UIScreen.main.bounds.size.height;
 let textFiledHeight:CGFloat = GLOBAL_HEIGHT * 0.08;
 
 let width:CGFloat = GLOBAL_WIDTH * 0.5 - 50;
+
+
+
+let TradeUrl:NSString = "http://code.lymidas.com/TradeCenter/Get?TradeCenterAccount=";
+

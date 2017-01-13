@@ -44,6 +44,9 @@
 		617658711E260AB70030AC0F /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176584F1E260AB70030AC0F /* LayoutConstraintItem.swift */; };
 		617658721E260AB70030AC0F /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617658511E260AB70030AC0F /* UILayoutSupport+Extensions.swift */; };
 		6193419F1E24BDD000BFA7B4 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193419E1E24BDD000BFA7B4 /* GlobalConst.swift */; };
+		61C07C2E1E276BC4004CAEFA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C07C211E276B8E004CAEFA /* Alamofire.framework */; };
+		61C07C301E277B24004CAEFA /* TradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C07C2F1E277B24004CAEFA /* TradeModel.swift */; };
+		61C07C4C1E278810004CAEFA /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C07C3D1E278804004CAEFA /* HandyJSON.framework */; };
 		61CAEED71E2392D8001A3605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEED61E2392D8001A3605 /* AppDelegate.swift */; };
 		61CAEED91E2392D8001A3605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAEED81E2392D8001A3605 /* ViewController.swift */; };
 		61CAEEDC1E2392D8001A3605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CAEEDA1E2392D8001A3605 /* Main.storyboard */; };
@@ -55,6 +58,111 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		61C07C201E276B8E004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		61C07C221E276B8E004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		61C07C241E276B8E004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		61C07C261E276B8E004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		61C07C281E276B8E004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		61C07C2A1E276B8E004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		61C07C2C1E276B8E004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		61C07C3C1E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21520C441D3341B200F53111;
+			remoteInfo = "HandyJSON iOS";
+		};
+		61C07C3E1E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21520C5B1D3344A900F53111;
+			remoteInfo = HandyJSONDemo;
+		};
+		61C07C401E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 217B046D1D571B9F0035A8E2;
+			remoteInfo = "HandyJSON iOS Tests";
+		};
+		61C07C421E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 393E0F9B1DA1650E00B3BC12;
+			remoteInfo = "HandyJSON watchOS";
+		};
+		61C07C441E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 393E0FB11DA2441E00B3BC12;
+			remoteInfo = "HandyJSON tvOS";
+		};
+		61C07C461E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 393E0FB91DA2441E00B3BC12;
+			remoteInfo = "HandyJSON tvOS Tests";
+		};
+		61C07C481E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 393E0FE11DA2494F00B3BC12;
+			remoteInfo = "HandyJSON macOS";
+		};
+		61C07C4A1E278804004CAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 393E0FE91DA2494F00B3BC12;
+			remoteInfo = "HandyJSON macOS Tests";
+		};
 		61CAEEE81E2392D9001A3605 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 61CAEECB1E2392D8001A3605 /* Project object */;
@@ -110,6 +218,9 @@
 		617658501E260AB70030AC0F /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
 		617658511E260AB70030AC0F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		6193419E1E24BDD000BFA7B4 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		61C07C2F1E277B24004CAEFA /* TradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeModel.swift; sourceTree = "<group>"; };
+		61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HandyJSON.xcodeproj; path = ../HandyJSON/HandyJSON.xcodeproj; sourceTree = "<group>"; };
 		61CAEED31E2392D8001A3605 /* Swift邮币卡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift邮币卡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CAEED61E2392D8001A3605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61CAEED81E2392D8001A3605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +242,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C07C4C1E278810004CAEFA /* HandyJSON.framework in Frameworks */,
+				61C07C2E1E276BC4004CAEFA /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +313,40 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		61C07C161E276B8E004CAEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61C07C211E276B8E004CAEFA /* Alamofire.framework */,
+				61C07C231E276B8E004CAEFA /* Alamofire iOS Tests.xctest */,
+				61C07C251E276B8E004CAEFA /* Alamofire.framework */,
+				61C07C271E276B8E004CAEFA /* Alamofire macOS Tests.xctest */,
+				61C07C291E276B8E004CAEFA /* Alamofire.framework */,
+				61C07C2B1E276B8E004CAEFA /* Alamofire tvOS Tests.xctest */,
+				61C07C2D1E276B8E004CAEFA /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C07C321E278804004CAEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61C07C3D1E278804004CAEFA /* HandyJSON.framework */,
+				61C07C3F1E278804004CAEFA /* HandyJSONDemo.app */,
+				61C07C411E278804004CAEFA /* HandyJSON iOS Tests.xctest */,
+				61C07C431E278804004CAEFA /* HandyJSON.framework */,
+				61C07C451E278804004CAEFA /* HandyJSON.framework */,
+				61C07C471E278804004CAEFA /* HandyJSON tvOS Tests.xctest */,
+				61C07C491E278804004CAEFA /* HandyJSON.framework */,
+				61C07C4B1E278804004CAEFA /* HandyJSON macOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		61CAEECA1E2392D8001A3605 = {
 			isa = PBXGroup;
 			children = (
+				61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */,
+				61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */,
 				61CAEED51E2392D8001A3605 /* Swift邮币卡 */,
 				61CAEEEA1E2392D9001A3605 /* Swift邮币卡Tests */,
 				61CAEEF51E2392D9001A3605 /* Swift邮币卡UITests */,
@@ -235,6 +379,7 @@
 				61645B6C1E2613470048C5BE /* UITextFiled+Extension.swift */,
 				61645B6E1E2614BB0048C5BE /* UIView+Extension.swift */,
 				6120D0B21E273725007A5427 /* SignInViewController.swift */,
+				61C07C2F1E277B24004CAEFA /* TradeModel.swift */,
 			);
 			path = "Swift邮币卡";
 			sourceTree = "<group>";
@@ -353,6 +498,16 @@
 			mainGroup = 61CAEECA1E2392D8001A3605;
 			productRefGroup = 61CAEED41E2392D8001A3605 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 61C07C161E276B8E004CAEFA /* Products */;
+					ProjectRef = 61C07C151E276B8E004CAEFA /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 61C07C321E278804004CAEFA /* Products */;
+					ProjectRef = 61C07C311E278804004CAEFA /* HandyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				61CAEED21E2392D8001A3605 /* Swift邮币卡 */,
@@ -361,6 +516,114 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		61C07C211E276B8E004CAEFA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 61C07C201E276B8E004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C231E276B8E004CAEFA /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 61C07C221E276B8E004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C251E276B8E004CAEFA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 61C07C241E276B8E004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C271E276B8E004CAEFA /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 61C07C261E276B8E004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C291E276B8E004CAEFA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 61C07C281E276B8E004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C2B1E276B8E004CAEFA /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 61C07C2A1E276B8E004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C2D1E276B8E004CAEFA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 61C07C2C1E276B8E004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C3D1E278804004CAEFA /* HandyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HandyJSON.framework;
+			remoteRef = 61C07C3C1E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C3F1E278804004CAEFA /* HandyJSONDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HandyJSONDemo.app;
+			remoteRef = 61C07C3E1E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C411E278804004CAEFA /* HandyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "HandyJSON iOS Tests.xctest";
+			remoteRef = 61C07C401E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C431E278804004CAEFA /* HandyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HandyJSON.framework;
+			remoteRef = 61C07C421E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C451E278804004CAEFA /* HandyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HandyJSON.framework;
+			remoteRef = 61C07C441E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C471E278804004CAEFA /* HandyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "HandyJSON tvOS Tests.xctest";
+			remoteRef = 61C07C461E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C491E278804004CAEFA /* HandyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HandyJSON.framework;
+			remoteRef = 61C07C481E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61C07C4B1E278804004CAEFA /* HandyJSON macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "HandyJSON macOS Tests.xctest";
+			remoteRef = 61C07C4A1E278804004CAEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		61CAEED11E2392D8001A3605 /* Resources */ = {
@@ -415,6 +678,7 @@
 				617658691E260AB70030AC0F /* ConstraintRelatableTarget.swift in Sources */,
 				617658701E260AB70030AC0F /* LayoutConstraint.swift in Sources */,
 				617658601E260AB70030AC0F /* ConstraintMaker.swift in Sources */,
+				61C07C301E277B24004CAEFA /* TradeModel.swift in Sources */,
 				617658531E260AB70030AC0F /* ConstraintAttributes.swift in Sources */,
 				617658721E260AB70030AC0F /* UILayoutSupport+Extensions.swift in Sources */,
 				617658571E260AB70030AC0F /* ConstraintDSL.swift in Sources */,

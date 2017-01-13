@@ -17,6 +17,9 @@ class LoginViewController: UIViewController {
     }
 
     var remindUser:UIButton!;
+    var tradeCode:UITextField!;
+    var userName:UITextField!;
+    var password:UITextField!;
 
     func craetTextFiled(){
 
@@ -31,7 +34,7 @@ class LoginViewController: UIViewController {
         logoImage.layer.cornerRadius = 50;
         logoImage.layer.masksToBounds = true;
 
-        let tradeCode:UITextField = UITextField.textFieldLeftViewImageAndPlaceholder("Trade", "交易所代码");
+        tradeCode = UITextField.textFieldLeftViewImageAndPlaceholder("Trade", "交易所代码");
         self.view.addSubview(tradeCode);
         tradeCode.snp.makeConstraints { (make) in
             make.top.equalTo(logoImage.snp.bottom).offset(10);
@@ -40,7 +43,7 @@ class LoginViewController: UIViewController {
             make.height.equalTo(textFiledHeight);
         }
 
-        let userName:UITextField = UITextField.textFieldLeftViewImageAndPlaceholder("User", "资金账户");
+        userName = UITextField.textFieldLeftViewImageAndPlaceholder("User", "资金账户");
         self.view.addSubview(userName);
         userName.snp.makeConstraints { (make) in
             make.top.equalTo(tradeCode.snp.bottom).offset(10);
@@ -49,7 +52,7 @@ class LoginViewController: UIViewController {
             make.height.equalTo(textFiledHeight);
         }
 
-        let password:UITextField = UITextField.textFieldLeftViewImageAndPlaceholder("Password", "用户密码");
+        password = UITextField.textFieldLeftViewImageAndPlaceholder("Password", "用户密码");
         self.view.addSubview(password);
         password.snp.makeConstraints { (make) in
             make.top.equalTo(userName.snp.bottom).offset(10);
@@ -114,7 +117,7 @@ class LoginViewController: UIViewController {
 
 
     @objc func loginClick() -> Void {
-        
+        print(tradeCode.text! + userName.text! + password.text!);
     }
 
     @objc func signInClick() -> Void {
