@@ -62,8 +62,10 @@ class SignInViewController: UIViewController {
 
             if let tradeInfo = JSONDeserializer<TradeModel>.deserializeFrom(json: response.result.value){
                 let tradeModel:TradeModel = tradeInfo;
-                print(tradeModel.Ip);
+                TradeModel.shareInstance.Ip = tradeModel.Ip;
+
             }
+            print(TradeModel.shareInstance.Ip);
         }
 
     }

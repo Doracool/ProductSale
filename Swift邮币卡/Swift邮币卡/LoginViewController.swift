@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import HandyJSON
+import Kingfisher
 
 class LoginViewController: UIViewController {
 
@@ -120,7 +121,7 @@ class LoginViewController: UIViewController {
 
 
     @objc func loginClick() -> Void {
-        Alamofire.request(TradeUrl.appending(tradeCode.text!)).validate(contentType: ["applacation/json"]).responseString { (response) in
+        Alamofire.request(TradeUrl.appending(tradeCode.text!)).validate(contentType: ["application/json"]).responseString { (response) in
             if let tradeInfo = JSONDeserializer<TradeModel>.deserializeFrom(json: response.result.value){
                 let tradeModel:TradeModel = tradeInfo;
                 TradeModel.shareInstance.Ip = tradeModel.Ip;
@@ -139,7 +140,8 @@ class LoginViewController: UIViewController {
                 TradeModel.shareInstance.TradeCenterName = tradeModel.TradeCenterName;
                 TradeModel.shareInstance.Version = tradeModel.Version;
             }
-            
+            let url:URL = URL(string: LogoUrl.appending(TradeModel.shareInstance.LogoImg as String))!;
+            self.logoImage.kf.setImage(with: url);
         }
     }
 

@@ -6,12 +6,14 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "67620B5EFA902936DF04070AF595B76AB0333747" : 9223372036854775807,
     "07428E5688A93F9D899A8C87C22FF831A7E2793B" : 9223372036854775807,
+    "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1" : 9223372036854775807,
     "34DA183A73162093CA875775F0B49FC303EFAAC3" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5371BB92-7229-433A-9F7D-C92EA25A6482",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "67620B5EFA902936DF04070AF595B76AB0333747" : "ProductSale\/Alamofire\/",
     "07428E5688A93F9D899A8C87C22FF831A7E2793B" : "ProductSale\/HandyJSON\/",
+    "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1" : "ProductSale\/Kingfisher\/",
     "34DA183A73162093CA875775F0B49FC303EFAAC3" : "ProductSale\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Swift邮币卡",
@@ -22,6 +24,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/alibaba\/HandyJSON.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07428E5688A93F9D899A8C87C22FF831A7E2793B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/onevcat\/Kingfisher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Doracool\/ProductSale.git",
